@@ -1,4 +1,6 @@
-export interface IColors {
-  background: String;
-  fontColor: String;
+interface IColors {
+  background: string;
+  fontColor: string;
 }
+
+export default IColors;

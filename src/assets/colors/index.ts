@@ -1,4 +1,4 @@
-import {IColors} from './typescript';
+import IColors from './typescript';
 
 const colors: IColors = {
   background: '#008dff',

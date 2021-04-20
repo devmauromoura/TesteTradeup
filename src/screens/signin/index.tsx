@@ -1,12 +1,14 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {Container, Logo, Safe} from './styles';
+
+import logotradeup from '../../assets/images/logotradeup.png';
 
 const SignIn = () => {
-  return (
-    <View>
-      <Text>Sign In</Text>
-    </View>
-  );
+  return <Safe>
+    <Container>
+      <Logo source={logotradeup} resizeMode="contain" />
+    </Container>
+  </Safe>;
 };
 
 export default SignIn;
