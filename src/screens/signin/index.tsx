@@ -6,7 +6,6 @@ import {
   Body,
   Container,
   Header,
-  Key,
   Logo,
   Safe,
   Title,
@@ -21,10 +20,8 @@ const SignIn = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  return(
-
-      <Key behavior={"height"}>
-            <Safe>
+  return (
+    <Safe>
       <BackOne>
         <Logo source={logotradeup} resizeMode="contain" />
       </BackOne>
@@ -51,9 +48,7 @@ const SignIn = () => {
         </Body>
       </Container>
       <BackTwo />
-      </Safe>
-      </Key>
-
+    </Safe>
   )
 }
 

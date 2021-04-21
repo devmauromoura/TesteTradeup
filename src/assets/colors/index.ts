@@ -5,7 +5,7 @@ const colors: IColors = {
   background_light:  '#ffffff',
   neutral: '#ffffff',
   shadow: '#c9c9c9',
-  font_dark: '#c4c4c4',
+  font_dark: '#484848',
   font_light: '#ffffff',
   button_dark: '#008dff',
   button_light: '#008dff',
