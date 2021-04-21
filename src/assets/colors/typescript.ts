@@ -9,6 +9,7 @@ interface IColors {
   button_light: string;
   text_dark: string;
   text_ligth: string;
+  dark_opacity: string;
 }
 
 export default IColors;
