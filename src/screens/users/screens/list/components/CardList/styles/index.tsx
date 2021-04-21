@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import colors from '../../../../../../../assets/colors';
+import { Fonts } from '../../../../../../../assets/constants';
 
 export const CardContainer = styled.TouchableOpacity`
     width: 100%;
@@ -21,19 +22,19 @@ export const ImgProfile  = styled.Image`
 `;
 export const DetailContainer = styled.View``;
 export const Name = styled.Text`
-    font-family: Roboto;
-    font-size: 18px;
+    font-family: ${Fonts.family};
+    font-size:  ${Fonts.titles}px;
     font-weight: bold;
     color: ${colors.font_dark};
 `;
 export const Email = styled.Text`
-    font-family: Roboto;
-    font-size: 16px;
+    font-family: ${Fonts.family};
+    font-size: ${Fonts.normal}px;
     color: ${colors.font_dark};
 `;
 export const ID = styled.Text`
-    font-family: Roboto;
-    font-size: 20px;
+    font-family: ${Fonts.family};
+    font-size: ${Fonts.titles}px;
     font-weight: bold;
     color: ${colors.font_dark};
 `;

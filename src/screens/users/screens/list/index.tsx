@@ -1,12 +1,15 @@
 import React from 'react';
+import { Safe } from '../../../styles';
 import CardList from './components/CardList';
 import { Container } from './styles';
 
 const List = () => {
     return(
-        <Container>
-            <CardList />
-        </Container>
+        <Safe>
+            <Container>
+                <CardList />
+            </Container>
+        </Safe>
     )
 }
 

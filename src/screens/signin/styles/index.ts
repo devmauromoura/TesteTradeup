@@ -1,10 +1,7 @@
 import {Dimensions, Plataform} from 'react-native'
 import styled from 'styled-components'
 import colors from '../../../assets/colors'
-
-export const Safe = styled.SafeAreaView`
-  flex: 1;
-`
+import { Fonts } from '../../../assets/constants'
 
 export const BackOne = styled.View`
   height: 35%;
@@ -46,8 +43,8 @@ export const Header = styled.View`
 `
 
 export const Title = styled.Text`
-  font-family: Roboto;
-  font-size: 25px;
+  font-family: ${Fonts.family};
+  font-size: ${Fonts.loginTitle}px;
   font-weight: bold;
 `
 

@@ -1,15 +1,6 @@
-import React, {useState, useCallback} from 'react'
-import {Platform} from 'react-native'
-import {
-  BackOne,
-  BackTwo,
-  Body,
-  Container,
-  Header,
-  Logo,
-  Safe,
-  Title,
-} from './styles'
+import React, {useState} from 'react'
+import {Safe} from '../styles'
+import {BackOne, BackTwo, Body, Container, Header, Logo, Title} from './styles'
 
 import logotradeup from '../../assets/images/logotradeup.png'
 import Inp from './components/input'

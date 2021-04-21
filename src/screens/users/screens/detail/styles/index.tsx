@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import colors from '../../../../../assets/colors';
+import { Fonts } from '../../../../../assets/constants';
 
 export const Container = styled.View`
     flex: 1;
@@ -14,8 +15,8 @@ export const Header = styled.ImageBackground`
     z-index: 999;
 `;
 export const Name = styled.Text`
-    font-family: Roboto;
-    font-size: 20px;
+    font-family: ${Fonts.family};
+    font-size: ${Fonts.titles}px;
     font-weight: bold;
 `;
 export const Body = styled.View`
@@ -35,12 +36,12 @@ export const TextContainer = styled.View`
 `;
 
 export const TextTitle = styled.Text`
-    font-family: Roboto;
+    font-family: ${Fonts.family};
     font-weight: bold;
-    font-size: 16px;
+    font-size: ${Fonts.normal}px;
 `;
 export const TextItem = styled.Text`
-    font-family: Roboto;
+    font-family: ${Fonts.family};
     font-size: 18px;
 `;
 
@@ -54,8 +55,8 @@ export const CircleID = styled.View`
     margin-bottom: -45px;
 `;
 export const CircleText = styled.Text`
-    font-family: Roboto;
+    font-family: ${Fonts.family};
     font-weight: bold;
-    font-size: 18px;
+    font-size: ${Fonts.titles}px;
     color: ${colors.font_light};
 `;
