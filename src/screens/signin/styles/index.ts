@@ -3,9 +3,14 @@ import styled from 'styled-components'
 import colors from '../../../assets/colors'
 import { Fonts } from '../../../assets/constants'
 
+export const GeneralContainer = styled.View`
+  height: ${Dimensions.get("window").height - 24}px;
+  width: 100%;
+`;
+
 export const BackOne = styled.View`
   height: 35%;
-  width: ${Dimensions.get('screen').width}px;
+  width: ${Dimensions.get('window').width}px;
   background-color: ${colors.background_dark};
   align-items: center;
 `

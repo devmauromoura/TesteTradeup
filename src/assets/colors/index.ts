@@ -11,6 +11,7 @@ const colors: IColors = {
   button_light: '#008dff',
   text_dark: '#000000',
   text_ligth: '#ffffff',
+  text_blue: '#008dff',
   dark_opacity: 'rgba(0, 0, 0, 0.7)'
 };
 
