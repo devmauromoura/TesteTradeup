@@ -1,5 +1,5 @@
-import React from 'react'
-import {Safe} from '../../../styles'
+import React from 'react';
+import {Safe} from '../../../styles';
 import {
   Body,
   Card,
@@ -10,36 +10,36 @@ import {
   TextContainer,
   TextItem,
   TextTitle,
-} from './styles'
+} from './styles';
 
-const Detail = () => {
+
+const Detail = (props) => {
+  const {route} = props;
+  const {costumer} = route.params;
+
   return (
     <Safe>
       <Container>
-        <Header source={{uri: 'https://reqres.in/img/faces/1-image.jpg'}}>
+        <Header source={{uri: `${costumer.avatar}`}}>
           <CircleID>
-            <CircleText>1</CircleText>
+            <CircleText>{costumer.id}</CircleText>
           </CircleID>
         </Header>
         <Body>
           <Card>
             <TextContainer>
               <TextTitle>Nome</TextTitle>
-              <TextItem>Mauro Moura</TextItem>
-            </TextContainer>
-            <TextContainer>
-              <TextTitle>Nome</TextTitle>
-              <TextItem>Mauro Moura</TextItem>
+              <TextItem>{costumer.first_name} {costumer.last_name}</TextItem>
             </TextContainer>
             <TextContainer>
               <TextTitle>E-mail</TextTitle>
-              <TextItem>email@email.com</TextItem>
+              <TextItem>{costumer.email}</TextItem>
             </TextContainer>
           </Card>
         </Body>
       </Container>
     </Safe>
-  )
-}
+  );
+};
 
-export default Detail
+export default Detail;

@@ -8,7 +8,7 @@ const LogoTitle = () => {
         style={{ width: 40, height: 40, alignSelf: 'center' }}
         source={logotradeup}
       />
-    )
-}
+    );
+};
 
 export default LogoTitle;

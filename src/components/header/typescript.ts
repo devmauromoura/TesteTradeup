@@ -7,6 +7,9 @@ export interface IHeader {
     backgroundColor: string;
   };
   headerTintColor: string;
+  headerTitleContainerStyle:{
+    left: number;
+  };
   headerTitleStyle: {
     fontWeight: string;
   };

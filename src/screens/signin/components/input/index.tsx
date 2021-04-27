@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState} from 'react';
 import {
   Container,
   HideButton,
@@ -8,8 +8,8 @@ import {
   InputContainer,
   TInput,
   Title,
-} from './styles'
-import IInput, { IHide } from './typescript'
+} from './styles';
+import IInput, { IHide } from './typescript';
 
 const Inp = (props: IInput) => {
   const [hide, setHide] = useState<IHide>(true);
@@ -42,7 +42,6 @@ const Inp = (props: IInput) => {
         </HideButton>
       ) : null}
     </Container>
-  )
-}
-
-export default Inp
+  );
+};
+export default Inp;

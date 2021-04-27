@@ -11,7 +11,7 @@ import Detail from '../../screens/users/screens/detail';
 
 const Stack = createStackNavigator();
 
-function Routes() {
+const Routes = () => {
   return (
     <NavigationContainer>
       <SBar />
@@ -21,7 +21,7 @@ function Routes() {
         <Stack.Screen name="Detail" component={Detail} options={Header} />
       </Stack.Navigator>
     </NavigationContainer>
-  )
-}
+  );
+};
 
 export default Routes;

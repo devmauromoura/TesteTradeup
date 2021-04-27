@@ -6,3 +6,8 @@ interface IFonts{
 }
 
 export default IFonts;
+
+export interface IEndpoint{
+    login: () => string;
+    users: (page: string) => string;
+}

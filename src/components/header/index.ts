@@ -11,6 +11,9 @@ export const Header: IHeader = {
     backgroundColor: colors.background_dark,
   },
   headerTintColor: colors.font_light,
+  headerTitleContainerStyle:{
+    left: 0,
+  },
   headerTitleStyle: {
     fontWeight: 'bold',
   },
